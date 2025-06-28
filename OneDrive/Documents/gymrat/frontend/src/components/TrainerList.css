@@ -1,0 +1,19 @@
+.trainer-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.trainer-card {
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.trainer-card:hover {
+  transform: scale(1.03);
+  background-color: #e0e0e0;
+}
+
